@@ -170,7 +170,6 @@ public class ArrayExercises {
         System.out.println("You entered: " + numbers);
         Collections.reverse(numbers);
         System.out.println("Reversed: " + numbers);
-        scanner.close();
     }
 
     private static void EX12() {
