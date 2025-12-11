@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class ArrayExercises {
 
-    public static void arrayExercises() {
+    public static void arrayExercises(Scanner scanner) {
         EX1();
         EX2();
         EX3();
@@ -20,7 +20,7 @@ public class ArrayExercises {
         EX8();
         EX9();
         EX10();
-        EX11();
+        EX11(scanner);
         EX12();
         EX13();
     }
@@ -155,9 +155,8 @@ public class ArrayExercises {
         }
     }
 
-    private static void EX11() {
+    private static void EX11(Scanner scanner) {
         System.out.println("\nEXERCISE 11");
-        Scanner scanner = new Scanner(System.in);
         int number = 0;
         ArrayList<Integer> numbers = new ArrayList<>();
         System.out.println("Enter an integer (enter 5 to stop): ");
@@ -170,7 +169,6 @@ public class ArrayExercises {
         System.out.println("You entered: " + numbers);
         Collections.reverse(numbers);
         System.out.println("Reversed: " + numbers);
-        scanner.close();
     }
 
     private static void EX12() {
