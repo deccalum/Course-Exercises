@@ -13,6 +13,7 @@ public class Main {
             System.out.println("[3] Time API Exercises");
             System.out.println("[4] Collection Exercises");
             System.out.println("[5] Array Exercises");
+            System.out.println("[6] OOP Exercises");
             System.out.println("[0] Exit");
             int menu;
             try {
@@ -37,6 +38,9 @@ public class Main {
                     break;
                 case 5:
                     ArrayExercises.arrayExercises(scanner);
+                    break;
+                case 6:
+                    OOP.main();
                     break;
                 case 0:
                     run = false;
