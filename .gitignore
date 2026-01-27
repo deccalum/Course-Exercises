@@ -3,3 +3,6 @@
 /.idea
 *.log
 .DS_Store
+
+SQL/postgres_data/
+*.yml
